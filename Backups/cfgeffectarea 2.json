@@ -1,0 +1,103 @@
+{
+    "Areas": [
+		{ 	"AreaName": "Bunker-1-Ground-Level", 
+		"Type": "ContaminatedArea_Static", 
+		"TriggerType": "ContaminatedTrigger",
+		"Data": { 
+			"Pos": [ 701, 0, 1193 ], 
+			"Radius": 150,
+			"PosHeight": 40,
+			"NegHeight": 10,
+			"InnerRingCount": 2,
+			"InnerPartDist": 50,
+			"OuterRingToggle": 1, 
+			"OuterPartDist": 40, 
+			"OuterOffset": 0, 
+			"VerticalLayers": 0,
+			"VerticalOffset": 0,
+			"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+			},
+		"PlayerData": {
+			"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+			"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+			"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+		}
+	},
+	{ 	"AreaName": "Bunker-2-Second-Floor", 
+		"Type": "ContaminatedArea_Static", 
+		"TriggerType": "ContaminatedTrigger",
+		"Data": { 
+			"Pos": [ 701, 0, 1193 ], 
+			"Radius": 150,
+			"PosHeight": -150,
+			"NegHeight": 200,
+			"InnerRingCount": 2,
+			"InnerPartDist": 50,
+			"OuterRingToggle": 1, 
+			"OuterPartDist": 40, 
+			"OuterOffset": 0, 
+			"VerticalLayers": 0,
+			"VerticalOffset": 0,
+			"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+			},
+		"PlayerData": {
+			"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+			"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+			"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+		}
+	},
+	{ 	"AreaName": "Bunker-3-3rd-Floor", 
+		"Type": "ContaminatedArea_Static", 
+		"TriggerType": "ContaminatedTrigger",
+		"Data": { 
+			"Pos": [ 701, 0, 1193 ], 
+			"Radius": 150,
+			"PosHeight": -250,
+			"NegHeight": 300,
+			"InnerRingCount": 2,
+			"InnerPartDist": 50,
+			"OuterRingToggle": 1, 
+			"OuterPartDist": 40, 
+			"OuterOffset": 0, 
+			"VerticalLayers": 0,
+			"VerticalOffset": 0,
+			"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+			},
+		"PlayerData": {
+			"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+			"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+			"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+		}
+	}
+    ],
+
+	"SafePositions":[
+		[8224, 9710],
+		[8975, 6866],
+		[5431, 2215],
+		[11323, 4446],
+		[11610, 664],
+		[7732, 2834],
+		[1229, 9794],
+		[6245, 8033],
+		[3186, 2284],
+		[5588, 5527],
+		[643, 5536],
+		[7729, 5177],
+		[8161, 8922],
+		[5721, 4182],
+		[2077, 11340],
+		[9208, 4227],
+		[4398, 6366],
+		[9985, 8497],
+		[3068, 6620],
+		[5993, 6372],
+		[9093, 2129],
+		[10296, 2359],
+		[4379, 4650],
+		[7973, 10476],
+		[10099, 3659],
+		[3449, 11703],
+		[2402, 5420]
+	]
+}
